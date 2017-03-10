@@ -1,0 +1,39 @@
+<div ui-view></div>
+<div class="weui_tab tab-bottom">
+
+            <div id="tabOrder" class="temp2 weui_tabbar ">
+                <a  ui-sref='tab.index' ng-click="tabSelect(1,this)" ng-class="{'1':'weui_active'}[tabType]"  class="temp22 weui_tabbar_item">
+                    <div class="weui_tabbar_icon">
+                        <i class="fa fa-home weui_style"></i>
+                    </div>
+                    <p class="weui_tabbar_label">首页</p>
+                </a>
+                <a ui-sref='tab1.dd' ng-click="tabSelect(2,this)" ng-class="{'2':'weui_active'}[tabType]" class="temp22 weui_tabbar_item">
+                    <div class="weui_tabbar_icon">
+                        <i class="fa fa-file-text weui_home"></i>
+                    </div>
+                    <p class="weui_tabbar_label">订单</p>
+                </a>
+                <a ui-sref='tab1.pt' ng-click="tabSelect(3,this)" ng-class="{'3':'weui_active'}[tabType]" class="temp22 weui_tabbar_item">
+                    <div class="weui_tabbar_icon">
+                        <i class="fa fa-group weui_home"></i>
+                    </div>
+                    <p class="weui_tabbar_label">拼团</p>
+                </a>
+            </div>
+
+       </div>
+<style type="text/css">
+	.tab{
+		height: 1.75rem;
+		line-height: 1.75rem;
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+	}
+	.tab li{
+		float: left;
+		width: 33.33%;
+		text-align: center;
+	}
+</style>

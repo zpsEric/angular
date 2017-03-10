@@ -1,0 +1,78 @@
+.order-container{
+	position: absolute;
+	width: 100%;
+	bottom: 55px;
+	top: 0;
+	background: #efefef;
+}
+.tabList{
+	height: 3.125rem;
+	line-height: 3.125rem;
+	border-bottom: 1px #d6d6d6 solid;
+	background: #fff;
+}
+.tabList li,.tabList ul,.tabList span{
+	display: block;
+	height: 100%;
+}
+.tabList li{
+	float: left;
+	width: 25%;
+	text-align: center;
+	font-size: 0.875rem;
+}
+.tabList li.active span{
+	box-sizing: border-box;
+	color: #39fb00;
+	border-bottom: 3px solid #39fb00;
+}
+.dataList ul{
+	display: none;
+}
+.dataList ul.active{
+	display:block;
+}
+.dataList li{
+	margin-top: 0.625rem;
+	background: #FFFFFF;
+	overflow: hidden;
+}
+.dataList-header{
+	height: 2.5rem;
+	line-height: 2.5rem;
+	border-bottom: 1px #d8d8d8 solid;
+}
+.dataList-header span{
+	font-size: 0.75rem;
+}
+.dataList-header span.fl{
+	padding-left: 0.625rem;
+}
+.dataList-header span.fr{
+	padding-right: 0.625rem;
+}
+.dataList-container{
+	overflow: hidden;
+	border-bottom: 1px #d8d8d8 solid;
+	padding: 0.625rem 0;
+}
+.dataList_pic{
+	width: 6.5625rem;
+	padding-left: 0.625rem;
+}
+.dataList_pic img{
+	width: 100%;
+}
+.dataList_info{
+	font-size: 0.75rem;
+	width: 12.5rem;
+	padding-right: 0.625rem;
+	line-height: 1.5625rem;
+}
+.dataList-footer{
+	line-height: 3.75rem;
+	font-size: 0.875rem;
+}
+.dataList-footer span{
+	padding-right: 0.625rem;
+}
